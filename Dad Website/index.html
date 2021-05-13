@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta name="description" content="Ten7 Custom Creations. A custom woodworking company making everything to order.">
+	<meta name="keywords" content="Woodworking,Wood,working,craft,custom,">
+	<meta name="author" content="Ryan Kent">
+
+	<!-- viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- shiv which should be a shim -->
+    <!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<![endif]-->
+
+	<!-- tab title -->
+	<title>| Ten7 Custom Creations |</title>
+
+	<!-- favicon link -->
+	<link rel="shortcut icon" href="images/download.png">
+
+	<!-- stylesheets -->
+	<link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+	<link href="https://fonts.googleapis.com/css?family=Nova+Square" rel="stylesheet">
+
+    <!-- slicknav -->
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>   <!-- Link to jQuery Content Delivery Network - Necessary for SlickNav to work correctly -->
+    <script src="js/jquery.slicknav.min.js"></script>                     <!-- Link to the slicknav file inside the js folder - Necessary for SlickNav to work correctly -->
+
+	<!-- slicknav javascript - this javascript code will use the UL inside the nav_menu tag to build the same menu in slickNav format -->
+	<script type="text/javascript">
+    	$(document).ready(function(){
+			$('.nav_menu').slicknav({prependTo:"#mobilemenu"});
+    	});
+    </script>
+</head>
+<body>
+    <header class="clearfix">
+		<img src="images/download.png">
+	</header>
+
+    <nav id="mobilemenu"></nav>
+	<nav class="nav_menu">
+    	<ul>
+        	<li><a href="index.html">About Us</a></li>
+        	<li><a href="flags.html">flags</a></li>
+        	<li><a href="serviceproducts.html">Service Products</a></li>
+        	<li><a href="otherproducts.html">Other Products</a></li>
+    	</ul>
+	</nav>
+
+	<!--<nav class="bookmarks">
+		<ul>
+			<li><a href="-"> - </a></li>
+			<li><a href="-"> - </a></li>
+			<li><a href="-"> - </a></li>
+			<li><a href="-"> - </a></li>
+			<li><a href="-"> - </a></li>
+			<li><a href=".">Home</a></li>
+		</ul>
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Return To Top</button>
+	</nav>-->
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<section id="info">
+    <h1> About Us </h1>
+    <br>
+    <p> 
+        If you are looking for something original, customized, and personal, then we can help.  Every piece is unique and no two are the same. Everything is made from scratch, I keep no stock. From the CNC router to the laser engraver, resin art, Mod Podge, or a specific building material, anything is possible.
+    </p>
+    <br>
+    <p>
+        Quality costs.  In our case it's mostly with time.  Yes, the price may be higher than you can find elsewhere, but no one else will make it exactly the way you want it.    
+    </p>
+    <br>
+    <p>
+        This is a part-time craft for me.  I have a unpredictable, more than full-time job, plus family.  If you need something in 3 days, I can't help.  You can ask, but chances are not good unless my life schedule happens to be slow at that time.   Depending on the project, turn-around can be from a week to a month or more. I also don't keep stock, so if parts and pieces need to be ordered, I'm also at that vendor's mercy.  
+    </p>
+    <br>
+    <p>
+        Moral of the story, touch base early so we can get your project made!
+    </p>
+    <br>
+    <p>
+        Scroll below to see some of our previous work. Please keep in mind that some of our work is for units and or people that cannot have their names and/or agency association or logos shared publicly.  In fact much of our work is not posted here.  Please contact me by email to discuss your specific project, nothing is too small. 
+    </p>
+</section>
+</body>
+<footer>
+    <br></br>
+    <p> &#169; 2021 Ryan Kent Productions </p>
+</footer>
+</html>
